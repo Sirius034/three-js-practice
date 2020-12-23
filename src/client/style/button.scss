@@ -1,0 +1,22 @@
+.button {
+    display: block;
+    padding: 5px 10px;
+    margin: 0 auto;
+    font-size: .9rem;
+    border: 2px solid  rgb(18, 202, 12);
+    border-radius: 20px;
+    background-color: transparent;
+    color: rgb(18, 202, 12);
+    transition: all .3s linear;
+    cursor: pointer;
+
+    &:hover {
+        color: rgb(52, 100, 145);
+        border: 2px solid rgb(49, 90, 129);
+        background-color: rgba(9, 219, 9, 0.363);
+    }
+
+    &:focus {
+        outline: none;
+    }
+}

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import "app";
+@import "container";
+@import "interface";
+@import "input";
+@import "button";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Robot', sans-serif;
+    font-size: 12px;
+}
